@@ -1,2 +1,1 @@
-<center># Studying html/css and JS
-</center>
+# Studying html/css and JS

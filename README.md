@@ -1,1 +1,1 @@
-# studying-html-css-js
+# Studying html/css and JS

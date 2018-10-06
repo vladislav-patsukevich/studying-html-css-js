@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forms</title>
+</head>
+<body>
+<form action="/action_page.php" method="post">
+	First name: <input type="text" name="First_Name" required pattern="[A-Z][a-z-]+"><br>
+	Last name: <input type="text" name="Last_Name" required pattern="[A-Z][a-z-]+"">
+	<hr>
+	<button type="button">Just button</button>
+	<input type="button" name="Input_Button" value="Just another button">
+	<hr>
+	<select name="Your_Country" required>
+		<option value="JP">Japan</option>
+		<option value="US">US</option>
+		<option value="CN">China</option>
+		<option value="IE">Ireland</option>
+	</select>
+	<hr>
+	<input type="radio" name="Your_Sex" value="Male">Male<br>
+	<input type="radio" name="Your_Sex" value="Female">Female
+	<hr>
+	<input type="checkbox" name="What_Do_You-Have"> I have a bike<br>
+	<input type="checkbox" name="What_Do_You-Have"> I have a car
+	<hr>
+	<input type="submit" value="Submit data">
+	<input type="reset" value="Clear all">
+	<hr>
+</form>
+</body>
+</html>

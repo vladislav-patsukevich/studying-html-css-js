@@ -1,0 +1,18 @@
+{
+	"workbench.startupEditor": "newUntitledFile",
+	"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+	"workbench.statusBar.feedback.visible": false,
+	"window.menuBarVisibility": "default",
+	"workbench.statusBar.visible": false,
+	"workbench.activityBar.visible": true,
+	"editor.minimap.enabled": false,
+	"files.defaultLanguage": "html",
+	"editor.fontSize": 16,
+	"editor.tabSize": 2,
+	"workbench.editor.tabSizing": "shrink",
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.folding": true,
+	"editor.glyphMargin": false,
+	"editor.smoothScrolling": true,
+}

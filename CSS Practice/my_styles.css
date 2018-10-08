@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body {
+	font-family: 'Courier New', Courier, monospace;
+}
+div.first_screen {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+a.no_underline {
+	text-decoration: none;
+	color: white;
+}
+button.green_button {
+	background-color:#fc7830;
+	border-radius: 20px;
+	border: 1px solid #fc7830;
+	padding: 5px 10px 5px 10px;
+}
+ul.inline_lists {
+	display: inline;
+}

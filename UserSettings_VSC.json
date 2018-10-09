@@ -15,4 +15,12 @@
 	"editor.folding": true,
 	"editor.glyphMargin": false,
 	"editor.smoothScrolling": true,
+	"sync.gist": "6161149aad8e3a9453595535c41aba9a",
+	"sync.quietSync": false,
+	"sync.removeExtensions": true,
+	"sync.syncExtensions": true,
+	"sync.autoDownload": false,
+	"sync.autoUpload": false,
+	"sync.forceDownload": false,
+	"cSpell.language": "en,ru",
 }

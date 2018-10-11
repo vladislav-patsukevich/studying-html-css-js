@@ -1,0 +1,11 @@
+// Place your key bindings in this file to overwrite the defaults
+{ 
+	"key": "tab", 
+	"command": "tab", 
+	"when": "editorTextFocus && !editorTabMovesFocus" 
+	}, 
+	{ 
+	"key": "tab", 
+	"command": "editor.emmet.action.expandAbbreviation", 
+	"when": "editorTextFocus && !editorHasSelection && !editorHasMultipleSelections && !editorTabMovesFocus" 
+	}

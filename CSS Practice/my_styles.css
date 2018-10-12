@@ -3,10 +3,10 @@ body {
 	font-family: 'Courier New', Courier, monospace;
 }
 div.first_screen {
-	background-color: black;
+	background-image: url("E:\Work\CSS\images\Path1.png");
 	color: white;
 	text-align: center;
-	padding: 15px;
+	padding: 10px;
 }
 a.no_underline {
 	text-decoration: none;
@@ -17,7 +17,4 @@ button.green_button {
 	border-radius: 20px;
 	border: 1px solid #fc7830;
 	padding: 5px 10px 5px 10px;
-}
-ul.inline_lists {
-	display: inline;
 }

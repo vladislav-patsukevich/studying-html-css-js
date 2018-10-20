@@ -1,25 +1,195 @@
 @charset "UTF-8";
-body {
-	font-family: 'Courier New', Courier, monospace;
-}
-div.header {
-	background-image: url("E:\Work\CSS\images\Path1.png");
-	color: white;
-}
-a.no_underline {
-	text-decoration: none;
-	color: white;
-}
-button.green_button {
-	background-color:#fc7830;
-	border-radius: 20px;
-	border: 1px solid #fc7830;
-	padding: 5px 10px 5px 10px;
-}
-header.links {
 
+body {
+	font-family: 'Mali', cursive;
 }
-div.first_screen {
+
+h2 {
 	text-align: center;
-	padding: 10px;
+}
+
+.flex_horizontal {
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.flex_vertical {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.center_and_break_word {
+	word-break: break-word;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto auto;
+	grid-template-areas: 
+		"header header"
+		"main main"
+		"footer footer";
+}
+
+.header {
+	grid-area: header;
+	display: grid;
+	grid-template-columns: 50% 50% ;
+	grid-template-rows: auto auto;
+	grid-template-areas: 
+	"logo navigation"
+}
+
+.logo {
+	grid-area: logo;
+	padding: 5%;
+	justify-content: left;
+}
+
+.logo > img, span {
+	margin: 0 2% 0 2%;
+}
+
+.navigation {
+	justify-content: space-between;
+	padding: 5%;
+}
+
+.content {
+	grid-area: main;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+	grid-template-areas: 
+	"main_screen"
+	"education"
+	"features"
+	"courses"
+	"our_teachers"
+	"programs"
+	"what_client_say"
+	"blog"
+	"subscribe"
+	"contact";
+}
+
+.content > div {
+	padding: 30px 0 30px 0;
+}
+
+.main_screen {
+	grid-area: main_screen;
+}
+
+.education {
+	grid-area: education;
+}
+
+.features {
+	grid-area: features;
+}
+
+.courses {
+	grid-area: courses;
+}
+
+.our_teachers {
+	grid-area: our_teachers;
+}
+
+.programs {
+	grid-area: programs;
+}
+
+.each_program {
+	justify-content: space-evenly;
+	margin: 0 3% 0 3%;
+}
+
+.each_program > div {
+	background-color: rgb(80, 194, 80);
+	width: 370px;
+	height: 370px;
+	margin-top: 30px;
+}
+
+.each_program h3, h4 {
+	color: white;
+}
+
+.each_program h4 {
+	width: 210px;
+}
+
+.first_program {
+	background-image: url("images/Rectangle55.png");
+}
+
+.second_program {
+	background-image: url("images/Rectangle56.png");
+}
+
+.third_program {
+	background-image: url("images/Rectangle57.png");
+}
+
+.fourth_program {
+	background-image: url("images/Rectangle58.png");
+}
+
+.fifth_program {
+	background-image: url("images/Rectangle59.png");
+}
+
+.sixth_program {
+	background-image: url("images/Rectangle60.png");
+}
+
+.what_client_say {
+	grid-area: what_client_say;
+	background-color: lightblue;
+}
+
+.clients {
+	justify-content: center;
+}
+
+.clients > img {
+	margin: 0 2% 0 2%;
+}
+
+.what_client_say > p {
+	width: 550px;
+}
+
+.blog {
+	grid-area: blog;
+}
+
+.subscribe {
+	grid-area: subscribe;
+}
+
+.contact {
+	grid-area: contact;
+}
+
+.footer {
+	grid-area: footer;
+}
+
+@media only screen and (max-width: 850px) {
+    body {
+        background-color: white;
+		}
+
+
 }
